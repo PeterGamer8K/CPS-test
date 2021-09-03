@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CPS TEST</title>
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="starter-button" onclick="start()">Start the CPS test</button>
+        <input type="text" class="timeToCalculateCPS" placeholder="Type a time to do the calculation">
+        <div id="canvas-container" onclick="startCalculationCPS()"></div>
+        <p class="clock">00</p>
+        <p class="clock" id="cpsDiv">Clicks: 0</p>
+        <p class="clock" id="cps-result">O seu CPS foi de: 0.0</p>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>

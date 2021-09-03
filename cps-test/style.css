@@ -1,0 +1,26 @@
+.container {
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+
+#canvas-container {
+    background-color: green;
+    margin-top: 20px;
+    height: 100%;
+    width: 100;
+}
+
+.clock {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.timeToCalculateCPS {
+    width: 300px;
+
+}
